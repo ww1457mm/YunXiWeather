@@ -1,16 +1,160 @@
 {
   "string": [
     {
-      "name": "module_desc",
-      "value": "module description"
+      "name": "app_name",
+      "value": "云犀天气"
     },
     {
-      "name": "EntryAbility_desc",
-      "value": "description"
+      "name": "today",
+      "value": "今天"
     },
     {
-      "name": "EntryAbility_label",
-      "value": "label"
+      "name": "tomorrow",
+      "value": "明天"
+    },
+    {
+      "name": "yesterday",
+      "value": "昨天"
+    },
+    {
+      "name": "search_city",
+      "value": "请输入城市名"
+    },
+    {
+      "name": "not_found",
+      "value": "未找到该城市，请重试"
+    },
+    {
+      "name": "location_failed",
+      "value": "定位失败，请手动选择城市"
+    },
+    {
+      "name": "max_cities",
+      "value": "最多只能收藏3个城市"
+    },
+    {
+      "name": "city_manager",
+      "value": "城市管理"
+    },
+    {
+      "name": "change_city",
+      "value": "换城市"
+    },
+    {
+      "name": "loading",
+      "value": "加载中..."
+    },
+    {
+      "name": "retry",
+      "value": "重试"
+    },
+    {
+      "name": "locate_current",
+      "value": "定位当前城市"
+    },
+    {
+      "name": "hot_cities",
+      "value": "热门城市"
+    },
+    {
+      "name": "favorite_cities",
+      "value": "我的城市"
+    },
+    {
+      "name": "search_result",
+      "value": "搜索结果"
+    },
+    {
+      "name": "air_quality",
+      "value": "空气质量"
+    },
+    {
+      "name": "health_tips",
+      "value": "健康提示"
+    },
+    {
+      "name": "hourly_forecast",
+      "value": "未来48小时"
+    },
+    {
+      "name": "daily_forecast",
+      "value": "未来7天"
+    },
+    {
+      "name": "temperature_range",
+      "value": "最高: %1$s℃ 最低: %2$s℃"
+    },
+    {
+      "name": "error_network",
+      "value": "获取天气数据失败，请检查网络"
+    },
+    {
+      "name": "error_location",
+      "value": "定位服务未开启"
+    },
+    {
+      "name": "extreme_weather",
+      "value": "极端天气预警"
+    },
+    {
+      "name": "weather_sunny",
+      "value": "晴"
+    },
+    {
+      "name": "weather_cloudy",
+      "value": "多云"
+    },
+    {
+      "name": "weather_rain",
+      "value": "雨"
+    },
+    {
+      "name": "weather_snow",
+      "value": "雪"
+    },
+    {
+      "name": "weather_fog",
+      "value": "雾"
+    },
+    {
+      "name": "clothes",
+      "value": "穿衣"
+    },
+    {
+      "name": "umbrella",
+      "value": "出行"
+    },
+    {
+      "name": "sports",
+      "value": "运动"
+    },
+    {
+      "name": "car",
+      "value": "洗车"
+    },
+    {
+      "name": "permission_reason_internet",
+      "value": "需要网络访问权限获取天气数据"
+    },
+    {
+      "name": "permission_reason_location",
+      "value": "想帮您显示本地天气，需要允许定位哦"
+    },
+    {
+      "name": "permission_reason_approximately_location",
+      "value": "需要位置权限获取您所在城市的天气"
+    },
+    {
+      "name": "permission_reason_notification",
+      "value": "需要发送极端天气预警通知"
+    },
+    {
+      "name": "permission_reason_background_task",
+      "value": "需要后台更新天气数据"
+    },
+    {
+      "name": "permission_reason_background_lock",
+      "value": "需要锁定后台运行"
     }
   ]
 }

@@ -2,7 +2,59 @@
   "color": [
     {
       "name": "start_window_background",
-      "value": "#FFFFFF"
+      "value": "#ffffff"
+    },
+    {
+      "name": "primary_color",
+      "value": "#3498db"
+    },
+    {
+      "name": "secondary_color",
+      "value": "#2ecc71"
+    },
+    {
+      "name": "tertiary_color",
+      "value": "#e74c3c"
+    },
+    {
+      "name": "background_color",
+      "value": "#ecf0f1"
+    },
+    {
+      "name": "card_background",
+      "value": "#ffffff"
+    },
+    {
+      "name": "text_primary",
+      "value": "#2c3e50"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#7f8c8d"
+    },
+    {
+      "name": "air_quality_excellent",
+      "value": "#2ecc71"
+    },
+    {
+      "name": "air_quality_good",
+      "value": "#3498db"
+    },
+    {
+      "name": "air_quality_moderate",
+      "value": "#f39c12"
+    },
+    {
+      "name": "air_quality_poor",
+      "value": "#e74c3c"
+    },
+    {
+      "name": "button_primary",
+      "value": "#3498db"
+    },
+    {
+      "name": "button_secondary",
+      "value": "#95a5a6"
     }
   ]
 }
