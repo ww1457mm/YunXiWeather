@@ -215,3 +215,5 @@ export default class Constants {
     'default': '#9E9E9E', // 灰色，用于未知或无数据情况
   };
 }
+// 在文件末尾添加以下代码，确保类被导出
+export { Constants };
