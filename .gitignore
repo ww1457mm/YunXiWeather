@@ -1,12 +1,40 @@
-/node_modules
-/oh_modules
-/local.properties
-/.idea
-**/build
-/.hvigor
-.cxx
-/.clangd
-/.clang-format
-/.clang-tidy
-**/.test
-/.appanalyzer
+```
+# HarmonyOS/ETS build artifacts
+*.ets.map
+*.ets.meta
+*.ets.buildlog
+*.ets.cache
+
+# Dependencies
+oh_modules/
+node_modules/
+
+# Build outputs
+build/
+dist/
+output/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Temp files
+*.tmp
+.DS_Store
+Thumbs.db
+```
