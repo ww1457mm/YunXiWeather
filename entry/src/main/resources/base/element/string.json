@@ -1,7 +1,35 @@
 {
   "string": [
     {
+      "name": "module_desc",
+      "value": "云犀天气应用模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "云犀天气主入口"
+    },
+    {
+      "name": "EntryBackupAbility_desc",
+      "value": "云犀天气数据备份能力"
+    },
+    {
       "name": "app_name",
+      "value": "云犀天气"
+    },
+    {
+      "name": "permission_reason_network",
+      "value": "需要网络权限获取天气数据"
+    },
+    {
+      "name": "permission_reason_location",
+      "value": "需要位置权限获取当前城市天气"
+    },
+    {
+      "name": "permission_reason_cache",
+      "value": "需要存储权限缓存天气数据"
+    },
+    {
+      "name": "main_title",
       "value": "云犀天气"
     },
     {
@@ -17,144 +45,120 @@
       "value": "昨天"
     },
     {
-      "name": "search_city",
+      "name": "monday",
+      "value": "周一"
+    },
+    {
+      "name": "tuesday",
+      "value": "周二"
+    },
+    {
+      "name": "wednesday",
+      "value": "周三"
+    },
+    {
+      "name": "thursday",
+      "value": "周四"
+    },
+    {
+      "name": "friday",
+      "value": "周五"
+    },
+    {
+      "name": "saturday",
+      "value": "周六"
+    },
+    {
+      "name": "sunday",
+      "value": "周日"
+    },
+    {
+      "name": "search_city_hint",
       "value": "请输入城市名"
     },
     {
-      "name": "not_found",
-      "value": "未找到该城市，请重试"
-    },
-    {
-      "name": "location_failed",
-      "value": "定位失败，请手动选择城市"
-    },
-    {
-      "name": "max_cities",
-      "value": "最多只能收藏3个城市"
-    },
-    {
-      "name": "city_manager",
-      "value": "城市管理"
-    },
-    {
-      "name": "change_city",
-      "value": "换城市"
-    },
-    {
-      "name": "loading",
-      "value": "加载中..."
-    },
-    {
-      "name": "retry",
-      "value": "重试"
-    },
-    {
-      "name": "locate_current",
+      "name": "location_current_city",
       "value": "定位当前城市"
     },
     {
-      "name": "hot_cities",
-      "value": "热门城市"
+      "name": "city_not_found",
+      "value": "未找到该城市，请重试"
     },
     {
-      "name": "favorite_cities",
-      "value": "我的城市"
+      "name": "network_error",
+      "value": "网络请求失败，请检查网络连接"
     },
     {
-      "name": "search_result",
-      "value": "搜索结果"
+      "name": "loading_weather",
+      "value": "正在获取天气数据..."
     },
     {
-      "name": "air_quality",
-      "value": "空气质量"
+      "name": "air_quality_good",
+      "value": "优"
     },
     {
-      "name": "health_tips",
-      "value": "健康提示"
+      "name": "air_quality_normal",
+      "value": "良"
     },
     {
-      "name": "hourly_forecast",
-      "value": "未来48小时"
+      "name": "air_quality_poor",
+      "value": "轻度污染"
     },
     {
-      "name": "daily_forecast",
-      "value": "未来7天"
+      "name": "air_quality_bad",
+      "value": "中度污染"
     },
     {
-      "name": "temperature_range",
-      "value": "最高: %1$s℃ 最低: %2$s℃"
+      "name": "air_quality_worse",
+      "value": "重度污染"
     },
     {
-      "name": "error_network",
-      "value": "获取天气数据失败，请检查网络"
+      "name": "air_quality_hazardous",
+      "value": "严重污染"
     },
     {
-      "name": "error_location",
-      "value": "定位服务未开启"
+      "name": "clothes_tip",
+      "value": "穿衣建议"
     },
     {
-      "name": "extreme_weather",
-      "value": "极端天气预警"
+      "name": "umbrella_tip",
+      "value": "雨伞提醒"
     },
     {
-      "name": "weather_sunny",
-      "value": "晴"
+      "name": "sports_tip",
+      "value": "运动建议"
     },
     {
-      "name": "weather_cloudy",
-      "value": "多云"
+      "name": "car_wash_tip",
+      "value": "洗车建议"
     },
     {
-      "name": "weather_rain",
-      "value": "雨"
+      "name": "cold_tip",
+      "value": "感冒提醒"
     },
     {
-      "name": "weather_snow",
-      "value": "雪"
+      "name": "no_wind",
+      "value": "无风"
     },
     {
-      "name": "weather_fog",
-      "value": "雾"
+      "name": "wind_level",
+      "value": "级"
     },
     {
-      "name": "clothes",
-      "value": "穿衣"
+      "name": "network_timeout",
+      "value": "请求超时，请重试"
     },
     {
-      "name": "umbrella",
-      "value": "出行"
+      "name": "api_key_invalid",
+      "value": "API密钥无效"
     },
     {
-      "name": "sports",
-      "value": "运动"
+      "name": "server_error",
+      "value": "服务器错误"
     },
     {
-      "name": "car",
-      "value": "洗车"
-    },
-    {
-      "name": "permission_reason_internet",
-      "value": "需要网络访问权限获取天气数据"
-    },
-    {
-      "name": "permission_reason_location",
-      "value": "想帮您显示本地天气，需要允许定位哦"
-    },
-    {
-      "name": "permission_reason_approximately_location",
-      "value": "需要位置权限获取您所在城市的天气"
-    },
-    {
-      "name": "permission_reason_notification",
-      "value": "需要发送极端天气预警通知"
-    },
-    {
-      "name": "permission_reason_background_task",
-      "value": "需要后台更新天气数据"
-    },
-    {
-      "name": "permission_reason_background_lock",
-      "value": "需要锁定后台运行"
+      "name": "api_error",
+      "value": "API错误"
     }
   ]
 }

@@ -2,59 +2,71 @@
   "color": [
     {
       "name": "start_window_background",
-      "value": "#ffffff"
+      "value": "#f8f8f8"
     },
     {
       "name": "primary_color",
-      "value": "#3498db"
+      "value": "#3a7bd5"
     },
     {
       "name": "secondary_color",
-      "value": "#2ecc71"
-    },
-    {
-      "name": "tertiary_color",
-      "value": "#e74c3c"
+      "value": "#00c6fb"
     },
     {
       "name": "background_color",
-      "value": "#ecf0f1"
+      "value": "#f5f5f5"
+    },
+    {
+      "name": "text_primary",
+      "value": "#333333"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#666666"
+    },
+    {
+      "name": "text_tertiary",
+      "value": "#999999"
+    },
+    {
+      "name": "divider_color",
+      "value": "#e0e0e0"
     },
     {
       "name": "card_background",
       "value": "#ffffff"
     },
     {
-      "name": "text_primary",
-      "value": "#2c3e50"
-    },
-    {
-      "name": "text_secondary",
-      "value": "#7f8c8d"
-    },
-    {
-      "name": "air_quality_excellent",
-      "value": "#2ecc71"
-    },
-    {
       "name": "air_quality_good",
-      "value": "#3498db"
+      "value": "#00e676"
     },
     {
-      "name": "air_quality_moderate",
-      "value": "#f39c12"
+      "name": "air_quality_normal",
+      "value": "#ffd600"
     },
     {
       "name": "air_quality_poor",
-      "value": "#e74c3c"
+      "value": "#ff9100"
     },
     {
-      "name": "button_primary",
-      "value": "#3498db"
+      "name": "air_quality_bad",
+      "value": "#ff5252"
     },
     {
-      "name": "button_secondary",
-      "value": "#95a5a6"
+      "name": "air_quality_worse",
+      "value": "#c2185b"
+    },
+    {
+      "name": "air_quality_hazardous",
+      "value": "#6a1b9a"
+    },
+    {
+      "name": "temperature_high",
+      "value": "#ff5252"
+    },
+    {
+      "name": "temperature_low",
+      "value": "#29b6f6"
     }
   ]
 }

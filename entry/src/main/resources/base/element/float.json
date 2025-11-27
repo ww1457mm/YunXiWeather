@@ -1,80 +1,52 @@
 {
   "float": [
     {
-      "name": "font_size_title",
-      "value": "28fp"
-    },
-    {
-      "name": "font_size_subtitle",
-      "value": "20fp"
-    },
-    {
-      "name": "font_size_content",
-      "value": "16fp"
-    },
-    {
-      "name": "font_size_small",
-      "value": "14fp"
-    },
-    {
-      "name": "temp_font_size",
-      "value": "48fp"
-    },
-    {
-      "name": "padding_large",
-      "value": "20fp"
-    },
-    {
-      "name": "padding_medium",
-      "value": "15fp"
-    },
-    {
-      "name": "padding_small",
-      "value": "10fp"
-    },
-    {
-      "name": "margin_large",
-      "value": "20fp"
+      "name": "margin_small",
+      "value": "8vp"
     },
     {
       "name": "margin_medium",
-      "value": "15fp"
+      "value": "16vp"
     },
     {
-      "name": "margin_small",
-      "value": "10fp"
+      "name": "margin_large",
+      "value": "24vp"
     },
     {
-      "name": "border_radius_large",
-      "value": "20fp"
-    },
-    {
-      "name": "border_radius_medium",
-      "value": "15fp"
-    },
-    {
-      "name": "border_radius_small",
-      "value": "10fp"
-    },
-    {
-      "name": "button_height",
-      "value": "45fp"
-    },
-    {
-      "name": "city_card_height",
-      "value": "80fp"
-    },
-    {
-      "name": "icon_size_large",
-      "value": "30fp"
-    },
-    {
-      "name": "icon_size_medium",
+      "name": "text_size_title",
       "value": "24fp"
     },
     {
-      "name": "icon_size_small",
+      "name": "text_size_subtitle",
       "value": "20fp"
+    },
+    {
+      "name": "text_size_body",
+      "value": "16fp"
+    },
+    {
+      "name": "text_size_caption",
+      "value": "14fp"
+    },
+    {
+      "name": "card_corner_radius",
+      "value": "12vp"
+    },
+    {
+      "name": "icon_size_small",
+      "value": "24vp"
+    },
+    {
+      "name": "icon_size_medium",
+      "value": "48vp"
+    },
+    {
+      "name": "icon_size_large",
+      "value": "96vp"
+    },
+    {
+      "name": "divider_height",
+      "value": "1vp"
     }
   ]
 }

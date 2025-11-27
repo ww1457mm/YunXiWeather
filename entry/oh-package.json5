@@ -1,12 +1,15 @@
 {
-  "name": "com.example.yunxiweather",
+  "name": "entry",
   "version": "1.0.0",
-  "description": "云犀天气-老年版",
+  "description": "云犀天气应用模块",
   "main": "",
   "author": "",
   "license": "",
-  "dependencies": {},
+  "dependencies": {
+    "@ohos/axios": "1.0.0",
+    "@ohos/chart": "1.0.0"
+  },
   "devDependencies": {
-    "@ohos/hypium": "1.0.24"
+    "@ohos/hypium": "1.0.6"
   }
 }
