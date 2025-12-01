@@ -32,6 +32,8 @@
         ]
       },
       {
+        "startWindowBackground": "$color:start_window_background",  // 需要先在color.json中定义
+        "startWindowIcon": "$media:icon",  // 需要提供图标资源
         "name": "EntryBackupAbility",
         "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
         "description": "$string:EntryBackupAbility_desc",
@@ -43,7 +45,7 @@
         "name": "ohos.permission.INTERNET",
         "reason": "$string:permission_reason_network",
         "usedScene": {
-          "ability": [
+          "abilities": [
             "EntryAbility"
           ],
           "when": "always"
@@ -53,7 +55,7 @@
         "name": "ohos.permission.LOCATION",
         "reason": "$string:permission_reason_location",
         "usedScene": {
-          "ability": [
+          "abilities": [
             "EntryAbility"
           ],
           "when": "inuse"
@@ -63,7 +65,7 @@
         "name": "ohos.permission.APPROXIMATELY_LOCATION",
         "reason": "$string:permission_reason_location",
         "usedScene": {
-          "ability": [
+          "abilities": [
             "EntryAbility"
           ],
           "when": "inuse"
@@ -73,7 +75,7 @@
         "name": "ohos.permission.READ_MEDIA",
         "reason": "$string:permission_reason_cache",
         "usedScene": {
-          "ability": [
+          "abilities": [
             "EntryAbility"
           ],
           "when": "always"
@@ -83,7 +85,7 @@
         "name": "ohos.permission.WRITE_MEDIA",
         "reason": "$string:permission_reason_cache",
         "usedScene": {
-          "ability": [
+          "abilities": [
             "EntryAbility"
           ],
           "when": "always"
