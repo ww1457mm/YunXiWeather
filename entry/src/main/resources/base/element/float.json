@@ -1,52 +1,80 @@
 {
   "float": [
     {
-      "name": "margin_small",
-      "value": "8vp"
+      "name": "font_size_title",
+      "value": "28fp"
     },
     {
-      "name": "margin_medium",
-      "value": "16vp"
-    },
-    {
-      "name": "margin_large",
-      "value": "24vp"
-    },
-    {
-      "name": "text_size_title",
-      "value": "24fp"
-    },
-    {
-      "name": "text_size_subtitle",
+      "name": "font_size_subtitle",
       "value": "20fp"
     },
     {
-      "name": "text_size_body",
+      "name": "font_size_content",
       "value": "16fp"
     },
     {
-      "name": "text_size_caption",
+      "name": "font_size_small",
       "value": "14fp"
     },
     {
-      "name": "card_corner_radius",
-      "value": "12vp"
+      "name": "temp_font_size",
+      "value": "48fp"
     },
     {
-      "name": "icon_size_small",
-      "value": "24vp"
+      "name": "padding_large",
+      "value": "20fp"
     },
     {
-      "name": "icon_size_medium",
-      "value": "48vp"
+      "name": "padding_medium",
+      "value": "15fp"
+    },
+    {
+      "name": "padding_small",
+      "value": "10fp"
+    },
+    {
+      "name": "margin_large",
+      "value": "20fp"
+    },
+    {
+      "name": "margin_medium",
+      "value": "15fp"
+    },
+    {
+      "name": "margin_small",
+      "value": "10fp"
+    },
+    {
+      "name": "border_radius_large",
+      "value": "20fp"
+    },
+    {
+      "name": "border_radius_medium",
+      "value": "15fp"
+    },
+    {
+      "name": "border_radius_small",
+      "value": "10fp"
+    },
+    {
+      "name": "button_height",
+      "value": "45fp"
+    },
+    {
+      "name": "city_card_height",
+      "value": "80fp"
     },
     {
       "name": "icon_size_large",
-      "value": "96vp"
+      "value": "30fp"
     },
     {
-      "name": "divider_height",
-      "value": "1vp"
+      "name": "icon_size_medium",
+      "value": "24fp"
+    },
+    {
+      "name": "icon_size_small",
+      "value": "20fp"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "module": {
     "name": "entry",
     "type": "entry",
-    "description": "$string:module_desc",
+    "description": "云犀天气-老年版",
     "mainElement": "EntryAbility",
     "deviceTypes": [
       "phone"
@@ -10,40 +10,10 @@
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
-    "abilities": [
-      {
-        "name": "EntryAbility",
-        "srcEntry": "./ets/entryability/EntryAbility.ets",
-        "description": "$string:EntryAbility_desc",
-        "icon": "$media:icon",
-        "label": "$string:app_name",
-        "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:start_window_background",
-        "exported": true,
-        "skills": [
-          {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
-          }
-        ]
-      },
-      {
-        "startWindowBackground": "$color:start_window_background",  // 需要先在color.json中定义
-        "startWindowIcon": "$media:icon",  // 需要提供图标资源
-        "name": "EntryBackupAbility",
-        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
-        "description": "$string:EntryBackupAbility_desc",
-        "exported": false
-      }
-    ],
     "requestPermissions": [
       {
         "name": "ohos.permission.INTERNET",
-        "reason": "$string:permission_reason_network",
+        "reason": "$string:permission_reason_internet",
         "usedScene": {
           "abilities": [
             "EntryAbility"
@@ -63,6 +33,95 @@
       },
       {
         "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:permission_reason_approximately_location",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.NOTIFICATION_CONTROLLER",
+        "reason": "$string:permission_reason_notification",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING",
+        "reason": "$string:permission_reason_background_task",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.RUNNING_LOCK",
+        "reason": "$string:permission_reason_background_lock",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "云犀天气主入口",
+        "icon": "$media:icon",
+        "label": "$string:app_name",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+/*
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "云犀天气-老年版",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:permission_reason_internet",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
         "reason": "$string:permission_reason_location",
         "usedScene": {
           "abilities": [
@@ -72,8 +131,18 @@
         }
       },
       {
-        "name": "ohos.permission.READ_MEDIA",
-        "reason": "$string:permission_reason_cache",
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:permission_reason_approximately_location",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.NOTIFICATION_CONTROLLER",
+        "reason": "$string:permission_reason_notification",
         "usedScene": {
           "abilities": [
             "EntryAbility"
@@ -82,8 +151,18 @@
         }
       },
       {
-        "name": "ohos.permission.WRITE_MEDIA",
-        "reason": "$string:permission_reason_cache",
+        "name": "ohos.permission.RUNNING_LOCK",
+        "reason": "$string:permission_reason_background_task",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING",
+        "reason": "$string:permission_reason_background_task",
         "usedScene": {
           "abilities": [
             "EntryAbility"
@@ -92,11 +171,33 @@
         }
       }
     ],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "云犀天气主入口",
+        "icon": "$media:icon",
+        "label": "$string:app_name",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
     "metadata": [
       {
-        "name": "ohos.extension.backup",
-        "resource": "$profile:backup_config"
+        "name": "ohos.extension.notificationSubscriber",
+        "resource": "$profile:notification_subscriber_extension"
       }
     ]
   }
-}
+}*/

@@ -1,6 +1,11 @@
 {
   "src": [
     "pages/main/MainPage",
-    "pages/city/CityPage"
+    "pages/city/CityPage",
+    "pages/forecast/HourlyForecastPage",
+    "pages/forecast/DailyForecastPage",
+    "pages/air/AirQualityPage",
+    "pages/life/LifeAdvicePage",
+    "pages/warning/WarningPage"
   ]
 }
